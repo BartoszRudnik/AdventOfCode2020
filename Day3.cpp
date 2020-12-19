@@ -57,6 +57,7 @@ int main(){
         if (index12 >= line.size())
             index12 = index12 % line.size();
 
+
     }
 
     cout << result11 << " " << result31 << " " << result51 << " " << result71 << " " << result12 << endl;
