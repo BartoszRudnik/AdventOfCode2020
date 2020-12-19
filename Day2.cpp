@@ -5,7 +5,7 @@ using namespace std;
 int checkPassword(const string& password, char c, int min, int max);
 int checkPasswordPart2(const string& password, char c, int firstPosition, int secondPosition);
 
-int main(){
+/*int main(){
 
     int min, max;
     char c;
@@ -37,7 +37,7 @@ int main(){
 
     return 0;
 
-}
+}*/
 
 int checkPassword(const string& password, char c, int min, int max){
 
