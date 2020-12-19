@@ -7,7 +7,7 @@ int binarySearch(vector <int> input, int left, int right, int sum);
 unsigned long findProduct_2numbers(vector <int> input);
 unsigned long findProduct_3numbers(vector <int> input);
 
-int main() {
+/*int main() {
 
     vector<int> input;
     int tmpInput;
@@ -25,7 +25,7 @@ int main() {
     cout << findProduct_3numbers(input);
 
     return 0;
-}
+}*/
 
 int binarySearch(vector <int> input, int left, int right, int sum){
 
