@@ -1,8 +1,9 @@
+/*
 #include <iostream>
 #include <vector>
 using namespace std;
 
-/*int main(){
+int main(){
 
     string line;
     int maxResult = 0;
@@ -63,15 +64,16 @@ using namespace std;
 
     }
 
-    cout << "Highest seat ID: " << maxResult << endl;
+    cout << "Part1: " << maxResult << endl;
 
     for(int i = 1; i < tab.size(); i++){
 
         if(!tab[i] && tab[i - 1] && tab[i + 1])
-            cout << i << " ";
+            cout << "Part2: " << i << " ";
 
     }
 
     return 0;
 
-}*/
+}
+*/

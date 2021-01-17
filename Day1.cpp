@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -7,7 +8,7 @@ int binarySearch(vector <int> input, int left, int right, int sum);
 unsigned long findProduct_2numbers(vector <int> input);
 unsigned long findProduct_3numbers(vector <int> input);
 
-/*int main() {
+int main() {
 
     vector<int> input;
     int tmpInput;
@@ -21,11 +22,11 @@ unsigned long findProduct_3numbers(vector <int> input);
 
     }
 
-    cout << findProduct_2numbers(input) << endl;
-    cout << findProduct_3numbers(input);
+    cout << "Part1: " << findProduct_2numbers(input) << endl;
+    cout << "Part2: " << findProduct_3numbers(input);
 
     return 0;
-}*/
+}
 
 int binarySearch(vector <int> input, int left, int right, int sum){
 
@@ -111,4 +112,4 @@ unsigned long findProduct_3numbers(vector <int> input){
 
     return result;
 
-}
+}*/

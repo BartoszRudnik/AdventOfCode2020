@@ -1,7 +1,7 @@
+/*
 #include <iostream>
 using namespace std;
 
-/*
 int main(){
 
     int result31 = 0;
@@ -57,11 +57,14 @@ int main(){
         if (index12 >= line.size())
             index12 = index12 % line.size();
 
-
     }
 
-    cout << result11 << " " << result31 << " " << result51 << " " << result71 << " " << result12 << endl;
+    unsigned int resultPart2 = result11 * result31 * result51 * result71 * result12;
+
+    cout << "Part1: " << result31 << endl;
+    cout << "Part2: " << resultPart2;
 
     return 0;
 
-}*/
+}
+*/

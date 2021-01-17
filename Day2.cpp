@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <string>
 using namespace std;
@@ -5,7 +6,7 @@ using namespace std;
 int checkPassword(const string& password, char c, int min, int max);
 int checkPasswordPart2(const string& password, char c, int firstPosition, int secondPosition);
 
-/*int main(){
+int main(){
 
     int min, max;
     char c;
@@ -33,11 +34,12 @@ int checkPasswordPart2(const string& password, char c, int firstPosition, int se
 
     }
 
-    cout << resultPart1 << endl << resultPart2;
+    cout << "Part1: " << resultPart1 << endl;
+    cout << "Part2: " << resultPart2;
 
     return 0;
 
-}*/
+}
 
 int checkPassword(const string& password, char c, int min, int max){
 
@@ -75,3 +77,4 @@ int checkPasswordPart2(const string& password, char c, int firstPosition, int se
         return 0;
 
 }
+*/
