@@ -1,4 +1,5 @@
-/*
+//po wprowadzeniu danych wejsciowych wprowadzic '-1' w celu zakonczenia wczytywania danych
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -112,4 +113,4 @@ unsigned long findProduct_3numbers(vector <int> input){
 
     return result;
 
-}*/
+}

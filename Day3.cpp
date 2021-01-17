@@ -1,4 +1,5 @@
-/*
+//po wprowadzeniu danych wejsciowych wprowadzic '1' w celu zakonczenia wczytywania danych
+
 #include <iostream>
 using namespace std;
 
@@ -67,4 +68,3 @@ int main(){
     return 0;
 
 }
-*/

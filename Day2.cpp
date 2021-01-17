@@ -1,4 +1,4 @@
-/*
+//po wprowadzeniu danych wejsciowych wprowadzic '-1' w celu zakonczenia wczytywania danych
 #include <iostream>
 #include <string>
 using namespace std;
@@ -77,4 +77,3 @@ int checkPasswordPart2(const string& password, char c, int firstPosition, int se
         return 0;
 
 }
-*/

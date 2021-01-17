@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-/*
 int main(){
 
     string s;
@@ -176,8 +175,10 @@ int main(){
 
     }
 
-    cout << result << endl << result2;
+    cout << "Part1: " << result << endl;
+    cout <<" Part2: " << result2;
 
     return 0;
 
-}*/
+}
+

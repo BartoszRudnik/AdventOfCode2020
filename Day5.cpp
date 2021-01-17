@@ -1,4 +1,5 @@
-/*
+//po wprowadzeniu danych wejsciowych wprowadzic '0' w celu zakonczenia wczytywania danych
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -76,4 +77,3 @@ int main(){
     return 0;
 
 }
-*/
